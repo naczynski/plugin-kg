@@ -1,0 +1,3 @@
+<p style="margin-bottom:15px;">
+	właśnie zmieniliśmy Twój adres email z <em style="font-weight: bold">{{old_email}}</em> na <em style="font-weight: bold">{{new_email}}</em>. Już teraz zaloguj się używając nowego adresu!
+</p>

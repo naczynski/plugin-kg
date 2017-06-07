@@ -1,0 +1,9 @@
+Witaj,
+Użytkownik {{from}} wysłał do Ciebie wiadomość na Knowledge Garden:
+
+{{message}}
+
+{{contact_info_plain}}
+
+{{footer_row_01}}
+{{footer_row_02}}

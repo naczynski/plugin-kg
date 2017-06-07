@@ -1,0 +1,5 @@
+<p style="margin-bottom:15px;">
+	oto Twoje hasło do naszego portalu. Możesz je zmienić w sekcji "Ustawienia / Ogólne".
+</p>
+    
+{{password}}

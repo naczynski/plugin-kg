@@ -1,0 +1,4 @@
+
+<p style="margin-bottom:15px;">
+	Twoje konto w portalu Knowledge Garden zostało zaktualizowane. Od teraz Twój status na platformie to: <strong>CIM</strong>.
+</p>

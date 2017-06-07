@@ -1,0 +1,394 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<style type="text/css">
+		/* Force Outlook to provide a "view in browser" message */
+		#outlook a{
+			padding:0;
+		}
+
+		.ReadMsgBody{
+			width:100%;
+		} 
+
+		/* Force Hotmail to display emails at full width */
+		.ExternalClass{
+			width:100%;
+		} 
+
+		/* Force Hotmail to display normal line spacing */
+		.ExternalClass, 
+		.ExternalClass p, 
+		.ExternalClass span, 
+		.ExternalClass font, 
+		.ExternalClass td, 
+		.ExternalClass div {
+			line-height: 100%;
+		} 
+
+		/* Prevent WebKit and Windows mobile changing default text sizes */
+		body, 
+		table, 
+		td, 
+		p, 
+		a, 
+		li, 
+		blockquote{
+			-webkit-text-size-adjust:100%; 
+			-ms-text-size-adjust:100%;
+		} 
+
+		/* Remove spacing between tables in Outlook 2007 and up */
+		table, 
+		td{
+			mso-table-lspace:0pt; 
+			mso-table-rspace:0pt;
+		} 
+
+		/* Allow smoother rendering of resized image in Internet Explorer */
+		img{
+			-ms-interpolation-mode:bicubic;
+		}
+
+		body{
+			margin:0; 
+			padding:0;
+		}
+
+		img{
+			border:0; 
+			height:auto; 
+			line-height:100%; 
+			outline:none; 
+			text-decoration:none;
+		}
+
+		table{
+			border-collapse:collapse !important;
+		}
+
+		body, 
+		#bodyTable, 
+		#bodyCell{
+			height:100% !important; 
+			margin:0; 
+			padding:0; 
+			width:100% !important;
+		}
+
+		#bodyCell{
+			padding:20px;
+		}
+
+		#templateContainer{
+			width:600px;
+		}
+
+		body, #bodyTable{
+			background-color:#00a0de;
+		}
+
+		h1{
+			color:#202020 !important;
+			display:block;
+			font-family:Helvetica;
+			font-size:26px;
+			font-style:normal;
+			font-weight:bold;
+			line-height:100%;
+			letter-spacing:normal;
+			margin-top:0;
+			margin-right:0;
+			margin-bottom:10px;
+			margin-left:0;
+			text-align:left;
+		}
+
+		h2{
+			color:#404040 !important;
+			display:block;
+			font-family:Helvetica;
+			font-size:20px;
+			font-style:normal;
+			font-weight:bold;
+			line-height:100%;
+			letter-spacing:normal;
+			margin-top:0;
+			margin-right:0;
+			margin-left:0;
+			text-align:left;
+		}
+
+		h3{
+			color:#606060 !important;
+			display:block;
+			font-family:Helvetica;
+			font-size:16px;
+			font-style:italic;
+			font-weight:normal;
+			line-height:100%;
+			letter-spacing:normal;
+			margin-top:0;
+			margin-right:0;
+			margin-bottom:10px;
+			margin-left:0;
+			text-align:left;
+		}
+
+		h4{
+			color:#808080 !important;
+			display:block;
+			font-family:Helvetica;
+			font-size:14px;
+			font-style:italic;
+			font-weight:normal;
+			line-height:100%;
+			letter-spacing:normal;
+			margin-top:0;
+			margin-right:0;
+			margin-bottom:10px;
+			margin-left:0;
+			text-align:left;
+		}
+
+		#bodyImage{
+			height:auto !important;
+			max-width:560px !important;
+			width:100% !important;
+		}
+
+		#headerImage{
+			height:auto;
+			max-width:600px;
+		}
+
+
+		#templateBody{
+			background-color:#F9F9F9;
+		}
+
+		.bodyContent{
+			color:#515257;
+			font-family:Helvetica;
+			font-size:14px;
+			line-height:150%;
+			padding-top:20px;
+			padding-right:20px;
+			padding-bottom:20px;
+			padding-left:20px;
+			text-align:left;
+		}
+
+
+		.bodyContent img{
+			display:inline;
+			height:auto;
+			max-width:560px;
+		}
+
+
+		#footerCopyright {
+			padding-bottom: 0;
+		}
+
+		.footerContent{
+			color:#808080;
+			font-family:Helvetica;
+			font-size:14px;
+			line-height:150%;
+			text-align:left;
+		}
+
+
+		a:link,
+		a:visited, /* Yahoo! Mail Override */ 
+		a .yshortcuts,
+		a span /* Yahoo! Mail Override */{
+			color:#18A69A;
+			font-weight:normal;
+			text-decoration:none;
+		}
+
+		.emailButton {
+			color: #ffffff;
+			border-radius:3px; 
+			background-color:#18A69A;
+		}
+
+		.emailButtonContent {
+			padding-top: 8px;
+			padding-right: 16px;
+			padding-bottom: 8px;
+			padding-left: 16px
+		}
+
+		.emailButtonContent a {
+			color:#FFFFFF;
+			font-family:Helvetica, Arial, sans-serif; 
+			font-size:16px; 
+			font-weight:bold; 
+			text-decoration:none !important;
+		}
+
+		@media only screen and (max-width: 640px){
+
+			/* Prevent Webkit platforms from changing default text sizes */
+			body, 
+			table, 
+			td, 
+			p, 
+			a, 
+			li, 
+			blockquote{
+				-webkit-text-size-adjust:none !important;
+			} 
+
+			/* Prevent iOS Mail from adding padding to the body */
+			body{
+				width:100% !important;
+				min-width:100% !important;
+			}
+
+			#bodyCell{
+				padding:10px !important;
+			}
+
+
+			#templateContainer{
+				max-width:600px !important;
+				width:100% !important;
+			}
+
+			h1{
+				font-size:24px !important;
+				line-height:100% !important;
+			}
+
+			h2{
+				font-size:20px !important;
+				line-height:100% !important;
+			}
+
+			h3{
+				font-size:18px !important;
+				line-height:100% !important;
+			}
+
+			h4{
+				font-size:16px !important;
+				line-height:100% !important;
+			}
+
+			#headerImage{
+				height:auto !important;
+				max-width:600px !important;
+				width:100% !important;
+			}
+
+			#bodyImage{
+				height:auto !important;
+				max-width:560px !important;
+				width:100% !important;
+			}
+
+			.bodyContent{
+				font-size:14px !important;
+				line-height:125% !important;
+			}
+
+			.footerContent{
+				font-size:14px !important;
+				line-height:155% !important;
+			
+			}
+
+			.email-button-rwd {
+				padding-top: 20px !important;
+				padding-right: 20px !important;
+				padding-bottom: 20px !important;	
+			}
+
+			/* Place footer social and utility links on their own lines, for easier access */
+			.footerContent a{
+				display:block !important;
+			} 
+
+			.emailButtonContent {
+				padding-top: 10px !important;
+				padding-bottom: 10px !important;
+				padding-right: 30px !important;
+			}
+
+			.emailButton{
+				max-width:540px !important;
+				width:100% !important;
+			
+			}
+
+			.emailButton a{
+				display:block !important;
+				font-size:18px !important;
+			}
+		}
+	</style>
+</head>
+<body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;margin: 0;padding: 0;background-color: #00a0de;height: 100% !important;width: 100% !important;">
+	<center>
+		<table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;margin: 0;padding: 0;border-collapse: collapse !important;height: 100% !important;width: 100% !important;">
+			<tr>
+				<td align="center" valign="top" id="bodyCell" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;margin: 0;padding: 20px;height: 100% !important;width: 100% !important;">
+					
+					<table border="0" cellpadding="0" cellspacing="0" id="templateContainer" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;width: 600px;border-collapse: collapse !important;">
+						<tr>
+							<td align="center" valign="top" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+								<img src="{{domain}}/mail/mailing_header.png" style="max-width: 600px;-ms-interpolation-mode: bicubic;border: 0;height: auto;line-height: 100%;outline: none;text-decoration: none;" id="headerImage" mc:label="header_image" mc:edit="header_image" mc:allowdesigner mc:allowtext>
+							</td>
+						</tr>
+						<tr>
+							<td align="center" valign="top" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+								
+								<table border="0" cellpadding="15" cellspacing="0" width="100%" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;background-color: #dcdfe6;border-collapse: collapse !important;border-radius: 5px 5px 0 0;">
+
+									<tr>
+										<td valign="top" mc:edit="footer_content01" style="padding-left: 20px;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #72757c;font-family: Helvetica;font-size: 23px;line-height: 100%;text-align: left;">
+												Witaj,					
+										</td>
+									</tr>
+									
+								</table>
+
+							</td>
+						</tr>
+						<tr>
+							<td align="center" valign="top" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;border-radius-top:5px;border-radius-left:5px;border-radius-right:5px;border-radius-bottom:5px;">
+								<table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateBody" style="padding-bottom: 0;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;background-color: #F9F9F9;border-collapse: collapse !important;">
+									<tr>
+										<td valign="top" class="bodyContent" mc:edit="body_content00" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #6B6A6A;font-family: Helvetica;background-color: #eff2f7;font-size: 14px;line-height: 150%;padding-top: 10px;padding-right: 20px;padding-bottom: 0px;padding-left: 20px;text-align: left;">	
+											{{content}}
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td align="center" valign="top" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
+								{{footer}}
+							</td>
+						</tr>
+					</table>
+
+					<table border="0" cellpadding="0" cellspacing="0" id="templateContainer" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;width: 600px;border-collapse: collapse !important;">
+						<tr>
+							<td valign="top" style="margin:0;padding:0;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #fff;font-family: Helvetica;font-size: 12px;line-height: 150%;padding-left: 10px;padding-top: 10px">{{footer_row_01}}</td>
+						</tr>
+						<tr>
+							<td valign="top" style="margin:0;padding:0;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;mso-table-lspace: 0pt;mso-table-rspace: 0pt;color: #fff;font-family: Helvetica;font-size: 12px;line-height: 150%;padding-left: 10px">{{footer_row_02}}</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</center>
+</body>
+</html>

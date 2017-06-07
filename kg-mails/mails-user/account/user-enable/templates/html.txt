@@ -1,0 +1,3 @@
+<p style="margin-bottom:15px;">
+	Twoje konto jest znów aktywne. Zaloguj się już teraz i zobacz, co Cię ominęło!
+</p>

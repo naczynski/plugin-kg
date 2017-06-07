@@ -1,0 +1,7 @@
+
+	<p style="margin-bottom:15px;">
+		Użytkownik <strong>{{from}}</strong> wysłał wiadomość:
+	</p>
+	 
+	{{message}}
+	

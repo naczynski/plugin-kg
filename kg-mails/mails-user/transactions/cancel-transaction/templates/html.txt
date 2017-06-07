@@ -1,0 +1,5 @@
+
+	<p style="margin-bottom:15px;">
+		Przepraszamy, w wyniku błędu transakcja numer <strong>{{transaction_nr}}</strong> została anulowana. Prosimy spróbuj ponownie.. 
+	</p>
+

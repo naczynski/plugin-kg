@@ -1,0 +1,11 @@
+	<p style="margin-bottom:15px;">
+		w zakładce "Moje zasoby" czeka na Ciebie miła niespodzianka. <strong>{{coach}}</strong>, nasz Coach, wręczył Ci w prezencie: 
+	</p>
+
+	{{resources}}
+	{{with_message_text}}
+	{{message}}
+
+	<p style="margin-bottom:15px;line-height:1.25em;">
+		Już teraz wejdź na Platformę i pobierz prezent w zakładce Zasoby->Moje zasoby.
+	</p>

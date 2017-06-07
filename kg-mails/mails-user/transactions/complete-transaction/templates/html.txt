@@ -1,0 +1,8 @@
+
+	<p style="margin-bottom:15px;">
+		transakcja numer <strong>{{number}}</strong> została zatwierdzona. 
+	</p>
+
+	<p style="margin-bottom:15px;">
+		{{information}}
+	</p>

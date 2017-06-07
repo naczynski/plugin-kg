@@ -1,0 +1,11 @@
+
+	<p style="margin-bottom:15px;">
+		Twoje zamówienie zostało zarejestrowane w systemie, w jego skład wchodzi:
+	</p>
+	    
+    {{items}}
+
+	<p style="margin-top:20px;">
+		Cała kwota za zamówienie to {{total_brutto}}zł ({{total_netto}}zł netto). Fakturę będziesz mógł pobrać po dokonaniu płatności.
+	</p>
+	

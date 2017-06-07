@@ -1,0 +1,230 @@
+/* Header */
+	
+	body {
+		font-family: dejavu sans, sans-serif;
+		font-size: 10px;
+	}
+
+	.clear {
+		clear: both;
+	}
+
+	@page { 
+		margin: 40px; 
+	}
+
+	.Header {
+		border-bottom: 1px solid #23a3db;
+		/*border-top: 2px solid #23a3db;*/
+		height: 124px
+	}
+
+	.Header-Logo {
+		float: left;
+		margin-top: 8px;
+	}
+
+	.no-border-right {
+		border-right: 0px !important;
+	}
+
+	.Header-questusData {
+		float: left;
+		margin-left: 20px;
+		margin-top: 0px;
+	}
+
+	.Header-questusData p {
+		margin: 3px 0;
+		padding: 0;
+	}
+	
+	.Header-invoiceNumber {
+		float: right;
+		line-height: 30px;
+		font-size: 18px;
+		border-bottom: 1px solid #23a3db;
+		padding: 0 40px 0 20px;
+		width: 221px;
+	}
+
+	.Header-invoiceNumber span {
+		font-size: 10px;
+	}
+
+	.Header-invoiceNumber span.big {
+		font-size: 14px;
+	}
+
+	/* Main */
+
+	.Main-invoiceHeader {
+		border-bottom: 1px solid #23a3db;
+		text-align: center;
+		font-size: 20px;
+		padding: 8px 0;
+	}
+
+	.Main-RecieverData {
+		margin-top: 40px;
+		float: left;
+		/*border: 2px solid #23a3db;*/
+		width: 40%;
+		padding: 5px;
+	}
+
+	.Main-RecieverData p {
+		margin: 2px 0;
+		padding: 0;
+	}
+
+	.Main-InvoiceDates {
+		float: right;
+		/*border: 2px solid #23a3db;*/
+		width: 40%;
+		padding: 5px;
+	}
+
+	.Main-InvoiceDatesDate {
+		width: 67px;
+		text-align: right;
+	}
+
+	/* Main table */
+
+	.Main-productsTable {
+		display: table;
+		margin-top: 50px;
+		width: 100%;
+		border: 1px;
+		clear: both;
+		border-color: #c0c2c3;
+	}
+	
+	.Main-productsTable tr td {
+		text-align: center;
+		padding: 5px;
+		border-right: 1px solid #c0c2c3;
+		border-top: 1px solid #c0c2c3;
+	}
+	.Main-productsTable ,
+	.Main-productsTable tr,
+	.Main-productsTable tr td {
+		border-color: #c0c2c3;
+	}
+
+	.Main-productsTableProductName {
+		width: 300px;
+		text-align: left !important;
+	}
+
+	.Main-productsTable tr:last-of-type  td {
+		border-bottom: 1px solid #c0c2c3 !important;
+	}
+
+	.Main-productsTable tr td:first-of-type  {
+		border-left: 1px solid #c0c2c3 !important;
+	}
+	
+
+	/* Footer Total (Right) */
+
+	td.blue {
+		background: #23a3db;
+		color: #fff;
+		font-weight: bold;	
+		border-color: #23a3db !important;
+	}
+
+	td.wide {
+		width: 80px;
+	}
+
+	tr.space {
+		margin-top: 36px;
+	}
+
+	td.tax {
+		width: 40px;
+	}
+
+	.Footer-total tr,
+	.Footer-total tr td {
+		margin: 0;
+	}
+
+	.Footer-total table {
+		float: right;
+		margin-top: 50px;
+		margin-right: 40px;
+	}
+
+	.Footer-total table td {
+		line-height: 12px;
+		text-align: center;
+	}
+
+	/* Footer Total (Left)*/
+
+	.Footer-TotalByWords {
+		float: left;
+		padding-top: 50px;
+		position: relative;
+		width: 200px;
+		margin-left: 20px;
+	}
+
+	.Footer-TotalByWords p{
+		margin: 2px 0;
+		padding: 0;
+	}
+
+	/* Footer signature */
+	
+	.Footer-signature {
+		float: left;
+		position: relative;
+		width: 200px;
+		margin-top: 100px;
+		margin-left: 20px;
+		border-top: 1px solid #23a3db;
+		text-align: center;
+	} 
+
+	/* Footer adnotations */
+
+	.Footer-adnotations {
+		float: right;
+		position: relative;
+		width: 400px;
+		height: 130px;
+		padding: 5px;
+		border: 1px solid #23a3db;
+	}
+
+	/* Footer on all pages*/
+
+    .Footer-onAllPages {
+	   	position: fixed;
+	   	clear: both;
+	   	bottom: 0px;
+	   	left: 0px;
+	   	right: 0px; 
+	   	height: 30px;
+	   	background: yellow;
+    }
+
+    .Footer-wrapperBottom {
+    	padding-top: 80px;
+    	position: relative;
+    }
+
+	hr {
+		outline: 0;
+		border: 0;
+		height: 2px;
+		width: 100%;
+		bacgkround: #23a3db;
+	}
+
+

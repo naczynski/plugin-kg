@@ -1,0 +1,6 @@
+Przepraszamy, w wyniku błędu transakcja numer {{transaction_nr}} została anulowana. Prosimy spróbuj ponownie.. 
+
+{{contact_info_plain}}
+
+{{footer_row_01}}
+{{footer_row_02}}

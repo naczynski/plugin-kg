@@ -1,0 +1,9 @@
+Witaj,
+transakcja numer {{number}} została zatwierdzona. 
+
+{{information}}
+
+{{contact_info_plain}}
+
+{{footer_row_01}}
+{{footer_row_02}}

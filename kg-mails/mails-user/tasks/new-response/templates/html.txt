@@ -1,0 +1,6 @@
+
+	<p style="margin-bottom:15px;line-height:1.25em;">
+		do zadania <strong>{{name}}</strong> użytkownik {{user_from}} dodał odpowiedź:
+	</p>
+	    
+	{{response}}

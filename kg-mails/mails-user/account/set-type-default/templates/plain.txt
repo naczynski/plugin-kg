@@ -1,0 +1,7 @@
+Witaj,
+konto w portalu Knowledge Garden zostało zaktualizowane. Od teraz możesz korzystać z podstawowych funkcjonalności. 
+
+{{contact_info_plain}}
+
+{{footer_row_01}}
+{{footer_row_02}}

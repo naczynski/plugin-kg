@@ -1,0 +1,7 @@
+
+	<p style="margin-bottom:15px;">
+		Użytkownik <strong>{{from}}</strong> wysłał do Ciebie wiadomość na Knowledge Garden:
+	</p>
+	 
+	{{message}}
+	

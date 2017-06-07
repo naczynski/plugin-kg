@@ -1,0 +1,5 @@
+
+	<p style="margin-bottom:15px;">
+		Twoje konto w portalu Knowledge Garden zostało zaktualizowane. Od teraz możesz korzystać z podstawowych funkcjonalności. 
+	</p>
+	    

@@ -1,0 +1,6 @@
+	<p style="margin-bottom:15px;">
+		właśnie zarejestrowaliśmy Cię na Knowledge Garden - platformie rozwoju i integracji społeczności questusa. Poniżej znajdziesz dane do pierwszego logowania oraz link aktywacyjny:</p>
+	   
+	{{account_data}}
+
+	<p style="margin-top:20px;">Pamiętaj, żeby zmienić swoje hasło już przy pierwszej wizycie na platformie. Już teraz możesz korzystać z zasobów wiedzy, które zgromadziliśmy specjalnie dla Ciebie.</p>

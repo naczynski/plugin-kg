@@ -1,0 +1,4 @@
+
+	<p style="margin-bottom:15px;">
+		Twoje konto w portalu Knowledge Garden zostało zaktualizowane. Od teraz nie masz dostępu do funkcji <strong>networking</strong>.
+	</p>

@@ -1,0 +1,4 @@
+
+	<p style="margin-bottom:15px;">
+		Twoje konto zostało zablokowane przez administratora. Jeżeli uważasz, że zablokowaliśmy je przez pomyłkę, skontaktuj się z nami na kg@questus.pl
+	</p>

@@ -1,0 +1,11 @@
+Witaj,
+Twoja odpowiedź:
+
+"{{response}}"
+
+do zadania {{name}} uzyskała wystarczającą liczbę polubień, aby w nagrodę przyznać Ci zasób
+
+{{contact_info_plain}}
+
+{{footer_row_01}}
+{{footer_row_02}}

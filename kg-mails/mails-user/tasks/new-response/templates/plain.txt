@@ -1,0 +1,9 @@
+Witaj,
+do zadania {{name}} użytkownik {{user_from}} dodał odpowiedź:
+
+"{{response}}"
+
+{{contact_info_plain}}
+
+{{footer_row_01}}
+{{footer_row_02}}

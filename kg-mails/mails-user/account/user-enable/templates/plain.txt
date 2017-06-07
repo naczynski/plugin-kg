@@ -1,0 +1,8 @@
+
+Witaj,
+Twoje konto jest znów aktywne. Zaloguj się już teraz i zobacz, co Cię ominęło!
+
+{{contact_info_plain}}
+
+{{footer_row_01}}
+{{footer_row_02}}

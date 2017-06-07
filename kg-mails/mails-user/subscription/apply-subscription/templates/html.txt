@@ -1,0 +1,10 @@
+
+<p style="margin-bottom:15px;">
+	przypisaliśmy Ci abonament ważny od <strong>{{date_start}}</strong> do <strong>{{date_end}}</strong>. 
+	Dzięki niemu możesz swobodnie przeglądać zasoby, oraz pobrać <strong>{{ktm}}</strong> Knowledge to Master , 
+	Knowledge to Share lub Knowledge to Listen. 
+</p>
+
+<p style="margin-bottom:15px;">Otrzymasz również <strong>{{another}}</strong> materiałów z powyższych kategorii, 
+	które ukażą się w trakcie trwania abonamentu. 
+</p>

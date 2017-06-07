@@ -1,0 +1,12 @@
+
+	<p style="margin-bottom:15px;">
+		użytkownik <strong>{{from}}</strong> podarował Ci w prezencie:
+	</p>
+
+	{{resource}}
+	{{with_message_text}}
+	{{message}}
+	
+	<p style="margin-bottom:15px;">
+		Znajdziesz go w zakładce moje zasoby.
+	</p>

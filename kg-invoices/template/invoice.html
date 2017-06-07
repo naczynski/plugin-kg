@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Faktura</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<link rel="stylesheet" type="text/css" href="../assets/style.css">
+</head>
+
+<body>
+	
+	<div class="Header">
+		
+		<img class="Header-Logo" width="98" height="80" src="../assets/logo.png">
+
+		<div class="Header-questusData">
+			<p><strong>DANE Firmy</strong></p>
+			<p>{{questus_company_name}}</p>
+			<p>{{questus_company_address}}</p>
+			<p>NIP: {{questus_company_nip}}; REGON: {{questus_company_regon}}</p>
+			<p>Bank: {{questus_company_bank_account}}</p>	
+		</div>
+
+		<div class="Header-invoiceNumber"><span>Numer faktury: </span><span class="big">{{invoice_number}}</span></div>
+	
+	</div>
+
+	<div class="Main-invoiceHeader">Faktura VAT</div>
+	
+	<div class="Main-RecieverData">
+		<p><strong>ODBIORCA</strong></p>
+		<p>{{receiver_name}} {{receiver_surname}}</p>
+		<p>{{receiver_address}}</p>
+		<p>{{receiver_postcode}}, {{receiver_city}} </p>
+		<p>{{receiver_nip}}</p>	
+	</div>
+
+	<div class="Main-InvoiceDates">
+
+		<table border="0">
+			<tr>
+				<td><strong>Data wystawienia</strong></td>
+				<td class="Main-InvoiceDatesDate">{{current_time}}</td>	
+			</tr>
+
+			<tr>
+				<td><strong>Data zakończenia dostawy/wykonania usługi</strong></td>
+				<td class="Main-InvoiceDatesDate">{{current_time}}</td>	
+			</tr>
+
+			<tr>
+				<td><strong>Termin zapłaty</strong></td>
+				<td class="Main-InvoiceDatesDate" >{{current_time}}</td>	
+			</tr>
+
+			<tr>
+				<td><strong>Sposób zapłaty</strong></td>	
+				<td class="Main-InvoiceDatesDate" >zapłacono przelewem</td>	
+			</tr>
+		</table>	
+	</div>
+
+	<table cellspacing="0" class="Main-productsTable">
+		<tr>
+			<td><strong>L.p.</strong></td>
+			<td class="Main-productsTableProductName"><strong>Nazwa towaru lub usługi</strong></td>
+			<td><strong>SWW / KWiU</strong></td>
+			<td><strong>Ilość</strong></td>
+			<td class="no-border-right"><strong>Cena netto</strong></td>
+			<td class="blue" ><strong>Wartość netto (pln)</strong></td>
+			<td class="no-border-right" ><strong>VAT</strong></td>
+			<td class="blue" ><strong>Wartość VAT (pln)</strong></td>
+			<td><strong>Wartość Brutto (pln)</strong></td>
+		</tr>
+		{{items}}
+	</table>
+	
+	<div class="clear">
+
+		<div class="Footer-total">
+			
+			<table cellspacing="1">
+				
+				<tr>
+					<td></td>
+					<td class="wide" ><strong>Brutto</strong> </td>
+					<td class="wide" ><strong>VAT</strong> </td>
+					<td></td>
+					<td class="wide"> <strong>Netto</strong> </td>
+				</tr>
+
+				<tr>
+					<td class="wide"><strong>Razem</strong> </td>
+					<td class="blue wide">{{tatal_brutto}}zł</td>
+					<td class="blue wide">{{tatal_vat}}zł</td>
+					<td></td>
+					<td class="blue wide">{{total_netto}}zł</td>
+				</tr>
+
+				<tr class="space">
+					<td class="wide" ><strong>W tym</strong></td>
+					<td class="blue wide" >{{tatal_brutto}}zł</td>
+					<td class="blue wide" >{{tatal_vat}}zł</td>
+					<td class="tax">23%</td>
+					<td class="blue wide">{{total_netto}}zł</td>
+				</tr>
+
+				<tr>
+					<td></td>
+					<td class="blue wide" >0.00zł</td>
+					<td class="blue wide" >0.00zł</td>
+					<td class="tax">8%</td>
+					<td class="blue wide">0.00zł</td>
+				</tr>
+
+				<tr>
+					<td></td>
+					<td class="blue wide">0.00zł</td>
+					<td class="blue wide">0.00zł</td>
+					<td class="tax">5%</td>
+					<td class="blue wide">0.00zł</td>
+				</tr>
+		
+			</table>
+
+		</div>
+		
+		<div class="Footer-TotalByWords">
+			<p><strong>Słownie złotych:</strong></p>
+			<p>{{price_words}}</p>
+		</div>
+
+	</div>
+
+	<div class="clear Footer-wrapperBottom">
+
+		<div class="Footer-signature">
+			<p>Osoba upoważniona do wystawienia faktury</p>
+		</div>
+
+		<div class="Footer-adnotations">
+			Uwagi
+		</div>
+
+	</div>
+	
+</body>
+</html>

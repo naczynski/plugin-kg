@@ -1,0 +1,11 @@
+
+	<p style="margin-bottom:15px;">
+		Twoja odpowiedź:
+	</p>
+	    
+	{{response}}
+
+	<p style="margin-bottom:15px;">
+		 do zadania <strong>{{name}}</strong> uzyskała wystarczającą liczbę polubień, aby w nagrodę przyznać Ci zasób.
+	</p>
+	    
